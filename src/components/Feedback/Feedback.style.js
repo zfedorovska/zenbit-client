@@ -18,18 +18,6 @@ export const MainContainer = styled.div`
     bottom 250px left 800px, top right;
 `;
 
-// export const Cartoon = styled.div`
-//   padding: 0;
-//   outline: 1px solid blue;
-//   position: absolute;
-//   left: ${props => props.left};
-//   top: ${props => props.top};
-//   svg {
-//     width: ${props => props.width};
-//     height: ${props => props.height};
-//   }
-// `;
-
 export const FeedbackFormBlock = styled.div`
   width: 563px;
   padding-top: 179px;

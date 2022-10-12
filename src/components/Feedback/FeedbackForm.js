@@ -56,16 +56,6 @@ export default function FeedbackForm() {
       {
         <div>
           <MainContainer>
-            {/* <Cartoon left="2.01%" top="6.55%" width="88px" height="86px">
-          <svg>
-            <use href={icons + '#icon-cartoon1'}></use>
-          </svg>
-        </Cartoon>
-        <Cartoon left="763px" top="516px" width="127px" height="127px">
-          <svg>
-            <use href={icons + '#icon-cartoon2'}></use>
-          </svg>
-        </Cartoon> */}
             <FeedbackFormBlock>
               <Title>Reach out to us!</Title>
               <form onSubmit={handleSubmit}>
@@ -103,11 +93,6 @@ export default function FeedbackForm() {
                 </Button>
               </form>
             </FeedbackFormBlock>
-            {/* <Cartoon left="63.9%" top="49.47%" width="214px" height="208px">
-          <svg>
-            <use href={icons + '#icon-cartoon3'}></use>
-          </svg>
-        </Cartoon> */}
           </MainContainer>
           <Footer>
             <ul>
@@ -136,8 +121,7 @@ export default function FeedbackForm() {
                 <a href="">
                   <svg
                     width="12.23"
-                    height="14.8
-"
+                    height="14.8"
                   >
                     <use href={icons + '#icon-pinterest'}></use>
                   </svg>
