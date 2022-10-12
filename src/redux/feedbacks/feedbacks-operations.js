@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-axios.defaults.baseURL = 'http://localhost:3000/api/';
+axios.defaults.baseURL = 'https://quiet-tor-32733.herokuapp.com/api/';
 
 export const fetchFeedbacks = createAsyncThunk(
   'feedbacks/fetchFeedbacks',
