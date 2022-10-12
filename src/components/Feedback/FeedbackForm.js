@@ -97,32 +97,29 @@ export default function FeedbackForm() {
           <Footer>
             <ul>
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com">
                   <svg width="12.87" height="12.95">
                     <use href={icons + '#icon-linkedin'}></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://twitter.com">
                   <svg width="16.09" height="12.87">
                     <use href={icons + '#icon-twitter'}></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.facebook.com">
                   <svg width="8.36" height="16.09">
                     <use href={icons + '#icon-facebook'}></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="">
-                  <svg
-                    width="12.23"
-                    height="14.8"
-                  >
+                <a href="https://www.pinterest.com">
+                  <svg width="12.23" height="14.8">
                     <use href={icons + '#icon-pinterest'}></use>
                   </svg>
                 </a>
