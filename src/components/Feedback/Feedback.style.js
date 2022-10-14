@@ -7,15 +7,13 @@ import cartoon4Src from '../../images/cartoon4.png';
 import mapSrc from '../../images/Map.png';
 
 export const MainContainer = styled.div`
-  width: 1440px;
-  height: 1128px;
   position: relative;
 
   background-image: url(${cartoon1Src}), url(${cartoon3Src}),
     url(${cartoon2Src}), url(${mapSrc});
   background-repeat: no-repeat;
-  background-position: top left, bottom 450px left 780px,
-    bottom 250px left 800px, top right;
+  background-position: top left, bottom 300px left 780px,
+    bottom 100px left 800px, top right -200px;
 `;
 
 export const FeedbackFormBlock = styled.div`
@@ -75,6 +73,7 @@ export const Button = styled.button`
   padding-top: 28px;
   padding-bottom: 28px;
   color: #ffffff;
+  margin-bottom: 120px;
 `;
 
 export const Footer = styled.div`
